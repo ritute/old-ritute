@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  color: #afafaf;
+}
+
+body {
+  font: 75%/1.5em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+  text-shadow: #000 0px 0px 0px;
+  background: url(../images/background.png) repeat 0 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+h1, h2 {
+  font: bold 1.5em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+  color: #fff;
+  margin-bottom: 5px;
+  display: block;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  font-weight: normal;
+  font-style: normal;
+  display: block;
+}
+
+p {
+  margin-bottom: 1.5em;
+  clear: both;
+}
+
+header {
+  text-transform: uppercase;
+  text-align: center;
+  /*background: url(images/banner.png);*/
+}
+
+
+header p {
+  width: 575px;
+  height: 292px;
+}
+
+header h1 {
+  /*font-family: Arial, Helvetica, Tahoma, sans-serif;*/
+  line-height: .8em;
+  /*letter-spacing: .01ex;*/
+  font-size: 150pt;
+  font-weight: normal;
+  font-stretch: ultra-condensed;
+}
+
+header h2 {
+  line-height: .8em;
+  font-size: 50pt;
+}
+
+#social-links {
+  background: rgba(255,255,255,0.0);
+  height: 200px;
+}
+
+#container {
+  /*border: 1px dotted white;*/
+  width: 475px;
+  margin: auto;
+  margin-top: 10px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#main {
+  /*border-top: 2px dotted white;*/
+}
+
+header {
+  /*border: 1px dotted cyan;*/
+  width: 100%;
+  height: 100%;
+  float: top;
+  background-color: #B00B94; /*#33CCCC; /*rgba(176,11,148,1); /*#B00B94;*/
+}
+
+.clear {
+  clear: both;
+}
+
+
+#social h2 {
+  /*text-align: center;*/
+  text-transform: uppercase;
+  font-size: 14pt;
+  text-align: justify;
+  color: #fff;
+  /*background: purple;*/ /*rgba(255,255,255,0.1);*/
+  padding: 8px;
+  padding-bottom: 16px;
+  margin-bottom: 8px;
+  border-bottom: 2px dotted white;
+  /*-webkit-border-radius: 8px 8px;
+  -moz-border-radius: 8px 8px;*/
+}
+
+#social h2 a {
+  color: cyan;
+}
+
+#social h2 span {
+  
+}
+
+#social {
+  margin-top: 10px; 
+}
+
+#social .social-links {
+  margin: 0 auto;
+  width: 520px;
+}
+
+#social .link {
+  float: left;
+  width: 110px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  
+  margin-left: 38px;
+  margin-right: 0;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+#social .link a {
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+}
+
+.link a {
+  -webkit-transition: -webkit-transform .15s linear;
+  /*-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);*/
+  color: #222;
+  opacity: .70;
+}
+
+/* Rotate all even images 2 degrees */
+#social .link:nth-child(even) a {
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+}
+
+/* Don't rotate every third image, but offset its position */
+#social .link:nth-child(3n) a {
+  -webkit-transform: none;
+  -moz-transform: none;
+  position: relative;
+  top: -2px;
+}
+
+/* Rotate every fifth image by 5 degrees and offset it */
+#social .link:nth-child(5n) a {
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  position: relative;
+  right: 2px;
+}
+
+#social .link a:hover {
+  -webkit-transform: scale(1.10);
+  -moz-transform: scale(1.10);
+  position: relative;
+  z-index: 5;
+  
+  background-color: cyan;
+  color: black;
+  -webkit-border-radius: 5px 5px;
+  -mos-border-radius: 5px 5px;
+}
+
+#social .link .rarely {
+  color: #999;
+}
+
+#social .link a.rarely:hover {
+  color: #aaa;
+}
+
+ #social .link .twitter {
+  background: url(../images/links/twitter.png) no-repeat left center;
+  padding-left: 40px;
+  display: block;
+}
+
+#social .link .facebook {
+  background: url(../images/links/facebook.png) no-repeat left center;
+  padding-left: 40px;
+  display: block;
+}
+
+#social .link .foursquare {
+  background: url(../images/links/foursquare.png) no-repeat left center;
+  padding-left: 40px;
+  display: block;
+}
+
+#social .link .github {
+  background: url(../images/links/other.png) no-repeat left center;
+  padding-left: 40px;
+  display: block;
+}
+
+#social .link .google {
+  background: url(../images/links/google.png) no-repeat left center;
+  padding-left: 40px;
+  display: block;
+}
+
+#social .link .grooveshark {
+  background: url(../images/links/grooveshark.png) no-repeat left center;
+  padding-left: 40px;
+  display: block;
+}
+
+#social .link .linkedin {
+  background: url(../images/links/linkedin.png) no-repeat left center;
+  padding-left: 40px;
+  display: block;
+}
+
+#social .link .skype {
+  background: url(../images/links/other.png) no-repeat left center;
+  padding-left: 40px;
+  display: block;
+}
+
+#social .link a {
+  padding-left: 3px;
+  color: #eee;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+
+footer {
+  /*border: 1px dotted yellow;*/
+  color: #858788;
+  font: 0.8em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+  clear: both;
+  width: 100%;
+  float: bottom;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#ribbon {
+  width: 150px;
+  height: 150px;
+  background: url(../images/ribbon.gif) no-repeat 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+ .superscript{font-size:x-small; vertical-align:top;} 
+.subscript{font-size:x-small; vertical-align:bottom;} 
