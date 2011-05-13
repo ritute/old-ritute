@@ -15,16 +15,18 @@
 <body id="home">
   <div id="container">
     <header>
-	<img src="images/banner.png" alt="banner" align="middle" height="300px"> <!--CHANGE to DIV!!!-->
+	<h1>Rita Bancewicz</h1>
     </header>
     <div id="ribbon"></div>
     <div id="main">
       <div id="social">
 	
 	<div id="social-links">
-	  <h2><span>Is a 3<span class="superscript">rd</span> year computer engineering student at 
-		    <a href="http://www.utoronto.ca/">UofT</a>, specializing in software.
-	      </span></h2>
+	  <h2>
+	    <span>Is a 3<span class="superscript">rd</span> year computer engineering student at 
+	      <a href="http://www.utoronto.ca/">UofT</a>, specializing in software.
+	    </span>
+	  </h2>
 	  <div class="link">
 	    <a href="http://bit.ly/kgqgJq" class="twitter">Twitter</a>
 	  </div>
@@ -41,7 +43,7 @@
 	    <a href="http://on.fb.me/lkyjsL" class="facebook">Facebook</a>
 	  </div>
 	  <div class="link">
-	    <a href="http://bit.ly/hVLSP7" class="google">Google</a>
+	    <a href="http://bit.ly/jx8cIF" class="google rarely">Google</a>
 	  </div>
 	  <div class="clear">
 	  </div>
