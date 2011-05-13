@@ -98,7 +98,7 @@ header {
 #social h2 {
   /*text-align: center;*/
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   text-align: justify;
   color: #fff;
