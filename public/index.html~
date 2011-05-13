@@ -18,7 +18,7 @@
 	<h1>Rita Bancewicz</h1>
     </header>
     <div id="ribbon"></div>
-    <div id="main">
+    <div id="main" role="main">
       <div id="social">
 	
 	<div id="social-links">
