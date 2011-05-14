@@ -76,6 +76,7 @@ header h2 {
   margin-top: 10px;
   overflow: hidden;
   padding: 15px;
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
 }
 
 #main {
@@ -83,7 +84,6 @@ header h2 {
 }
 
 header {
-  /*border: 1px dotted cyan;*/
   width: 100%;
   height: 100%;
   float: top;
@@ -105,6 +105,8 @@ header {
   -webkit-transition: -webkit-transform .5s linear;
   -mos-transition: -webkit-transform .5s linear;
   -o-transition: -webkit-transform .5s linear;
+  
+  /*-webkit-box-shadow: 0 3px 6px rgba(1,1,1,.25);*/
 }
 header:hover {
   -webkit-transform: scale(1.04);
@@ -167,58 +169,34 @@ header:hover {
 }
 
 #social .link a {
-  -webkit-transform: rotate(-1deg);
+  /*-webkit-transform: rotate(-1deg);
   -moz-transform: rotate(-1deg);
-  -o-transform: rotate(-1deg);
+  -o-transform: rotate(-1deg);*/
 }
 
 .link a {
   -webkit-transition: all .15s linear;
-  -moz-transform: all .15s linear;
-  -o-transform: all .15s linear;
+  -moz-transition: all .15s linear;
+  -o-transition: all .15s linear;
   /*-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
-  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);*/
-  color: #222;
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -o-box-shadow: 0 3px 6px rgba(0,0,0,.25);*/
+
   opacity: .70;
-}
-
-/* Rotate all even images 2 degrees */
-#social .link:nth-child(even) a {
-  -webkit-transform: rotate(1deg);
-  -moz-transform: rotate(1deg);
-  -o-transform: rotate(1deg);
-}
-
-/* Don't rotate every third image, but offset its position */
-#social .link:nth-child(3n) a {
-  -webkit-transform: none;
-  -moz-transform: none;
-  -o-transform: none;
-  position: relative;
-  top: -2px;
-}
-
-/* Rotate every fifth image by 5 degrees and offset it */
-#social .link:nth-child(5n) a {
-  -webkit-transform: rotate(1deg);
-  -moz-transform: rotate(1deg);
-  -o-transform: rotate(1deg);
-  position: relative;
-  right: 2px;
 }
 
 #social .link a:hover {
   -webkit-transform: scale(1.10);
   -moz-transform: scale(1.10);
   -o-transform: scale(1.10);
-  position: relative;
-  z-index: 5;
-  
+
   background-color: cyan;
   color: black;
   -webkit-border-radius: 5px 5px;
   -mos-border-radius: 5px 5px;
   -o-border-radius: 5px 5px;
+  
+  opacity: .75;
 }
 
 #social .link .rarely {
@@ -294,7 +272,10 @@ footer {
   width: 100%;
   float: bottom;
   text-align: center;
+  padding-top: 60px;
 }
+
+
 
 a {
   color: #fff;
@@ -314,5 +295,8 @@ a:hover {
   right: 0;
 }
 
- .superscript{font-size:x-small; vertical-align:top;} 
-.subscript{font-size:x-small; vertical-align:bottom;} 
+.superscript {
+  font-size: x-small; 
+  vertical-align: top;
+} 
+
