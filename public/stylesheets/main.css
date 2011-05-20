@@ -69,7 +69,7 @@ header h2 {
 }
 
 #container {
-  border: 1px solid rgba(0,0,0,.2);
+  /*border: 1px solid rgba(0,0,0,.2);*/
   background: #222;
   width: 500px;
   margin: 0 auto;
@@ -267,9 +267,9 @@ header:hover {
 }
 
 footer {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(2,2,2,0)), to(rgba(2,2,2,.2)));
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(2,2,2,0)), to(rgba(2,2,2,.1)));
   background-image: -mos-gradient(linear, left top, left bottom, from(rgba(2,2,2,0)), to(rgba(2,2,2,.2)));
-  background-image: -o-gradient(linear, left top, left bottom, from(rgba(2,2,2,0)), to(rgba(2,2,2,.2)));
+  background-image: -o-gradient(linear, left top, left bottom, from(rgba(2,2,2,0)), to(rgba(2,2,2,.2)));*/
   color: #858788;
   font: 1em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
   clear: both;
@@ -307,7 +307,7 @@ a:hover {
 } 
 
 .email a {
-  background-color: rgba(2,2,2,.25);
+  /*background-color: rgba(2,2,2,.25);*/
   color: white;
   -webkit-transition: all .15s ease-in;
   -mos-transition: all .15s ease-in;
