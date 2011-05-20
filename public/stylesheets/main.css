@@ -307,7 +307,7 @@ a:hover {
 } 
 
 .email a {
-  /*background-color: rgba(2,2,2,.25);*/
+  background-color: rgba(2,2,2,.25);
   color: white;
   -webkit-transition: all .15s ease-in;
   -mos-transition: all .15s ease-in;
