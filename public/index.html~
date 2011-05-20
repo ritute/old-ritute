@@ -10,6 +10,20 @@
   <meta name="author" content="Rita Bancewicz"/>
 
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-23362865-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
 </head>
 
 <body id="home">
@@ -17,7 +31,7 @@
     <header>
 	<h1>Rita Bancewicz</h1>
     </header>
-    <div id="ribbon"></div>
+    <!--<div id="ribbon"></div>-->
     <div id="main" role="main">
       <div id="social">
 	<div id="social-links">
@@ -49,9 +63,11 @@
 	</div>
       </div>
     </div>
+    <footer>
+      <span class="email">
+	<a href="http://www.google.com/recaptcha/mailhide/d?k=01rblBKrLEPttG5lvO2cSJFA==&amp;c=H_sTwZUTBepV0RnaUIbJAg==" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501rblBKrLEPttG5lvO2cSJFA\75\75\46c\75H_sTwZUTBepV0RnaUIbJAg\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">rit...@ritute.com</a>
+      </span> 
+    </footer>
   </div>
-  <footer>
-    <p>rita [at] ritute [dot] com</p>
-  </footer>
 </body>
 </html>
